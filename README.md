@@ -91,6 +91,10 @@ Después nos dará la bienvenida al instalador y le daremos todo en siguiente.
 
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/f00251e1-adfd-40c5-9c42-0930a337589b)
 
+Una vez aquí elegiremos el directorio que querramos y le daremos a instalar
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/6a440aaa-b44d-490d-a3d6-ad21f4e9b907)
+
 
 
 
