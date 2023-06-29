@@ -31,4 +31,13 @@ Una vez instalado el Archivo deberemos buscarlo en Descargas
 
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/9c74e01b-7cd5-41cf-969d-030c8ce41f03)
 
+Xampp al iniciar el instalador te notifica que evites instalarlo en el directorio de instalación de Windows
 
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/0b79dae4-99b9-4ff4-8551-d494a3a69c42)
+
+Xampp te dará la bienvenida al instalador
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/cb65e103-e124-49cd-9ca8-ad37709d2f98)
+
+Al darle next te dirá que componentes de xampp deseas instalar
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/8e4e7577-14b0-4985-9083-9d683d8205ac)
