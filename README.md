@@ -21,7 +21,7 @@ Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la págin
 
 # Guia de instalación
 
-# Xampp
+**Xampp**
 
 Empezando con Xampp la cuál utilizamos para crear la base de datos.
 Primero desde cualquier navegador web hay que acceder a la suigiente página: https://www.apachefriends.org/es/index.html
