@@ -70,6 +70,7 @@ Deberemos aceptar los acuerdos
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/d19339e2-7254-460b-aaed-18f5c0b59fcd)
 
 Elegiremos el directorio que prefiramos
+
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/15d53c5c-8862-4690-87de-7eb9b1c1ca02)
 
 Le daremos a instalar despues de elegir las tareas adicionales que preferimos
