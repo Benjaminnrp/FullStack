@@ -41,3 +41,12 @@ Xampp te dará la bienvenida al instalador
 
 Al darle next te dirá que componentes de xampp deseas instalar
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/8e4e7577-14b0-4985-9083-9d683d8205ac)
+
+Elegiremos la ruta donde instalar Xampp
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/c64578db-4f77-4d4b-b2a9-ecc6c2cba19b)
+
+Con Darle next ya empezará a descargarse el programa que tardará unos minutos
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/7e1c4e81-098c-4dda-94f5-489379b8b2c0)
+
+
