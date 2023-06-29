@@ -21,7 +21,7 @@ Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la págin
 
 # Guia de instalación
 
-**Xampp**
+## Xampp
 
 Empezando con Xampp la cuál utilizamos para crear la base de datos.
 Primero desde cualquier navegador web hay que acceder a la suigiente página: https://www.apachefriends.org/es/index.html
@@ -51,6 +51,13 @@ Con Darle next ya empezará a descargarse el programa que tardará unos minutos
 
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/7e1c4e81-098c-4dda-94f5-489379b8b2c0)
 
-# Visual Studio Code
+## Visual Studio Code
+
+Primero debemos entrar a la página oficial: https://code.visualstudio.com
+
+Una vez en la pagina debemos instalarlo en la version compatible con nuestro sistema operativo 
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/ed0ff360-0d8b-4477-8ccd-c5205c533c0f)
+
 
 
