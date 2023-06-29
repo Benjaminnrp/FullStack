@@ -16,8 +16,7 @@ La primera carpeta que se muestra es la de css. En dicha carpeta encontraremos l
 y modificar la interfaz de cada sección por ejemplo: login, galeria, alojamiento, etc.
 
 En la carpeta "img" encontraremos las imagenes que se usan a lo largo de la página web.
+Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la página web para que cumpla varias necesidades como la de iniciar sesión.
 
-
-weqs
 
 
