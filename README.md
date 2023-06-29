@@ -27,6 +27,8 @@ Primero desde cualquier navegador web hay que acceder a la suigiente página: ht
 Una vez adentro deberemos instalar la versión compatible con nuestro sistema operativo
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/a13e660a-1552-4b0d-9113-cb0bb421ae1f)
 
-Una vez instalado el Archivo deberemos buscarlo en Descargas![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/9c74e01b-7cd5-41cf-969d-030c8ce41f03)
+Una vez instalado el Archivo deberemos buscarlo en Descargas
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/9c74e01b-7cd5-41cf-969d-030c8ce41f03)
 
 
