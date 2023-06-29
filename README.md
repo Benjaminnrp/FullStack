@@ -84,6 +84,7 @@ Y este se instalará automaticamente.
 Deberemos encontrar el setup en descargas y apretarlo
 
 Nos pedirá que seleccionemos el Lenguaje del programa
+
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/0b22b838-a801-4d37-8b56-7826dbcd9f3a)
 
 Después nos dará la bienvenida al instalador y le daremos todo en siguiente.
