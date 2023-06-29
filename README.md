@@ -53,11 +53,45 @@ Con Darle next ya empezará a descargarse el programa que tardará unos minutos
 
 ## Visual Studio Code
 
+Visual Studio fue el programa principal donde programamos el código html y css es decir darle la forma a la página
 Primero debemos entrar a la página oficial: https://code.visualstudio.com
 
 Una vez en la pagina debemos instalarlo en la version compatible con nuestro sistema operativo 
 
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/ed0ff360-0d8b-4477-8ccd-c5205c533c0f)
+
+Luego de instalarlo debemos de buscar el instalador en descargas
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/12f785c9-b6e3-4709-b6ae-ec4119e31331)
+
+Deberemos aceptar los acuerdos
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/d19339e2-7254-460b-aaed-18f5c0b59fcd)
+
+Elegiremos el directorio que prefiramos
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/15d53c5c-8862-4690-87de-7eb9b1c1ca02)
+
+Le daremos a instalar despues de elegir las tareas adicionales que preferimos
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/f91319f7-497e-42f5-ada7-7447318ea375)
+
+##Dia
+Dia fue utilizado para crear el diagrama entidad-relacion el cual funciona para facilitarnos la creación de tablas en MySQL.
+
+Para instalarlo deberemos entrar al siguiente enlace: https://sourceforge.net/projects/dia-installer/files/dia-win32-installer/0.97.2/dia-setup-0.97.2-2-unsigned.exe/download
+Y este se instalará automaticamente.
+Deberemos encontrar el setup en descargas y apretarlo
+
+Nos pedirá que seleccionemos el Lenguaje del programa
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/0b22b838-a801-4d37-8b56-7826dbcd9f3a)
+
+Después nos dará la bienvenida al instalador y le daremos todo en siguiente.
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/f00251e1-adfd-40c5-9c42-0930a337589b)
+
+
+
+
 
 
 
