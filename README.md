@@ -54,6 +54,7 @@ Con Darle next ya empezará a descargarse el programa que tardará unos minutos
 ## Visual Studio Code
 
 Visual Studio fue el programa principal donde programamos el código html y css es decir darle la forma a la página
+
 Primero debemos entrar a la página oficial: https://code.visualstudio.com
 
 Una vez en la pagina debemos instalarlo en la version compatible con nuestro sistema operativo 
