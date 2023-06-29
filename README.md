@@ -8,5 +8,16 @@ En alojamiento podemos ver los mejores hoteles en la capital para poder hospedar
 En galería el usuario podrá subir sus propias fotos como recuerdo (no serán públicas a nadie).
 Para iniciar sesión se requiere: Correo electrónico, usuario y contraseña.
 
+# Repositorio
+
+En el repositorio se encuentran almacenados los archivos en carpetas.
+
+La primera carpeta que se muestra es la de css. En dicha carpeta encontraremos los archivos .css que sirven para diseñar
+y modificar la interfaz de cada sección por ejemplo: login, galeria, alojamiento, etc.
+
+En la carpeta "img" encontraremos las imagenes que se usan a lo largo de la página web.
+
+
+weqs
 
 
