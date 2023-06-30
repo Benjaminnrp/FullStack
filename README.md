@@ -5,12 +5,20 @@ La página web trata sobre Córdoba Capital.
 ![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/16907b4a-43c8-4904-b660-4ea9e0c34c1d)
 
 
+Para entrar a la página se requiere iniciar sesión: Correo electrónico, usuario y contraseña.
+
 Con una interfaz amplia, empezando con el inicio donde se encuentra la información general de Córdoba Capital, su gastronomía y los eventos y festivales importantes.
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/4b6cb372-e65f-4902-8b79-c0340155e93e)
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/ab099f8b-c42d-4779-b44a-9e2db545dd4d)
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/4366e3eb-ce2e-46c8-9e6a-ddb639823eac)
+
+
+
 Siguiente a esto encontraremos la sección visitar donde estarán recomendaciones de los mejores lugares para visitar.
 
 En alojamiento podemos ver los mejores hoteles en la capital para poder hospedarse.
 
-Para iniciar sesión se requiere: Correo electrónico, usuario y contraseña.
+
 
 # Repositorio
 
