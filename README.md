@@ -23,6 +23,8 @@ En la carpeta "img" encontraremos las imagenes que se usan a lo largo de la pág
 
 Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la página web para que cumpla varias necesidades como la de iniciar sesión.
 
+Los archivos .html son la estructura de la página, es decir el front end de esta
+
 # Guia de instalación
 
 ## Xampp
