@@ -19,6 +19,8 @@ En la carpeta "img" encontraremos las imagenes que se usan a lo largo de la pág
 
 Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la página web para que cumpla varias necesidades como la de iniciar sesión.
 
+Utilizamos DIA para crear un diagrama entidad-relación para facilitar la creación de la base de datos SQL. Cabe recalcar que fue creado en una fase de ánalisis por lo que no estará igual a la página web. 
+
 # Guia de instalación
 
 ## Xampp
