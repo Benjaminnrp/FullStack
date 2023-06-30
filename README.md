@@ -17,6 +17,13 @@ Con una interfaz amplia, empezando con el inicio donde se encuentra la informaci
 
 Siguiente a esto encontraremos la sección visitar donde estarán recomendaciones de los mejores lugares para visitar.
 
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/b3d0574b-9ce3-4078-a465-ebc9bc99aa5a)
+
+Al posar el mouse sobre la imagen te dirá la ubicación y si se le da click en "Más información" te llevará a una página externa donde hay más información sobre el lugar.
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/30d0ff45-9aae-42ca-970d-8c0631791a46)
+
+
 En alojamiento podemos ver los mejores hoteles en la capital para poder hospedarse.
 
 
