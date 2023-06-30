@@ -50,7 +50,7 @@
 
             <input type="submit" value="registrar" class="button" name="enviar">
             <p> Al registrarte, aceptas nuestras condiciones de uso y Política de privacidad</p>
-            <p> ¿Ya tienes una cuenta? <a class="link" href="login2.html">Iniciar Sesión</a></p>
+            <p> ¿Ya tienes una cuenta? <a class="link" href="login2.php">Iniciar Sesión</a></p>
 
         </div>
   

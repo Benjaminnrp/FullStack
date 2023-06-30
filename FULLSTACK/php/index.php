@@ -56,9 +56,24 @@ $enlace=mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
         $correo=$_POST['correo'];
         $contraseña=$_POST['contraseña'];
 
-        $insertarDatos="INSERT INTO usuario VALUES (' ', '$nombre', '$contraseña', '$correo')";
+            // Verificar si el correo ya está registrado
+        $sql = "SELECT * FROM usuario WHERE correo = '$correo'";
+        $result = $enlace->query($sql);
 
-        $resultado=mysqli_query($enlace,$insertarDatos);
+        if ($result->num_rows > 0) {
+            echo "El correo electrónico ya está registrado.";
+        } else {
+            // Insertar nuevo usuario en la base de datos
+            $sql="INSERT INTO usuario VALUES (' ', '$nombre', '$contraseña', '$correo')";
+
+            if ($enlace->query($sql) === TRUE) {
+                echo "Registro exitoso. Por favor, inicia sesión.";
+            } else {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+        }
+
+        $result=mysqli_query($enlace,$insertarDatos);
     }
 
 

@@ -34,7 +34,7 @@ $enlace=mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
                 <input type="text" name="contraseña" placeholder="Contraseña">
             </div>
 
-            <input type="submit" name="iniciosesion" value="Login" class="button">
+            <input type="submit" name="iniciosesion" value="Login" class="button" onclick="turismo/FULLSTACK/inicio.html">
             <p> ¿No tienes una cuenta? <a class="link" href="index.php">Registrarse</a></p>
 
         </div>
@@ -46,24 +46,29 @@ $enlace=mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
 
 <?php
 
-    if(isset($_POST['iniciosesion'])){
+if(isset($_POST['iniciosesion'])){
 
-        $query=mysqli_query($enlace, "SELECT * FROM turismo WHERE usuario = '$nombre' AND contraseña= '$password' ");
-        $nr=mysqli_num_rows($query);
+    $correo=$_POST['correo'];
+    $contraseña=$_POST['contraseña'];
 
-        if($nr==1)
-        {
-            echo "<script> alert ('Bienvenido $nombre'); window.location='index.html' </script>";
-        }else{
-            echo "<script> alert ('Hola $nombre'); window.location='index.html' </script>";
-        }
+    $query=mysqli_query($enlace, "SELECT * FROM turismo WHERE correo='$correo' AND contraseña= '$password' ");
+    $nr=mysqli_num_rows($query);
 
-        $correo=$_POST['correo'];
-        $contraseña=$_POST['contraseña'];
-
-        $insertarDatos="INSERT INTO usuario VALUES ('', '$nombre', '$contraseña', '$correo')";
-
-        $ejecutarInsertar=mysqli_query($enlace,$insertarDatos);
+    if($nr==1)
+    {
+        echo "<script> alert ('Bienvenido $nombre'); window.location='inicio.html' </script>";
+        exit; // Salir del script después de la redirección
+    }else{
+        echo "<script> alert ('Hola $nombre'); window.location='index.html' </script>";
+        exit; // Salir del script después de la redirección
     }
+
+    $correo=$_POST['correo'];
+    $contraseña=$_POST['contraseña'];
+
+    $insertarDatos="INSERT INTO usuario VALUES ('', '$nombre', '$contraseña', '$correo')";
+
+    $ejecutarInsertar=mysqli_query($enlace,$insertarDatos);
+}
 
 ?>
