@@ -7,7 +7,12 @@
     
     $enlace=mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
 
+    if(!$enlace){
+        die("Conexión fallida");
+    }
+
 ?>   
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="login.css">
     <title>Registrarse</title>
 </head>
 <body>
@@ -40,31 +45,44 @@
         </div>
       </header>
 
-
-    <form class="formulario">
-        <h1>Registrate</h1>
-        <div class="contenedor">
-            <div class="input-contenedor">
-                <i class="fas fa-user icon"></i>
-                <input type="text" placeholder="Nombre Completo">
-            </div>
+      <form class="formulario" action="#" name="turismo_bd" method="post">
+            <h1>Registrate</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" name="nombre" placeholder="Nombre Completo">
+                </div>
             <div class="input-contenedor">
                 <i class="fas fa-envelope icon"></i>
-                <input type="text" placeholder="Correo Electrónico">
+                <input type="email" name="correo" placeholder="Correo Electrónico">
             </div>
             <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
-                <input type="password" placeholder="Contraseña">
+                <input type="password" name="contraseña" placeholder="Contraseña">
             </div>
-
-            <input type="submit" value="Registrarse" class="button">
+            <input type="submit" name="registro" class="button">
             <p> Al registrarte, aceptas nuestras condiciones de uso y Política de privacidad</p>
             <p> ¿Ya tienes una cuenta? <a class="link" href="login2.html">Iniciar Sesión</a></p>
-
         </div>
-  
     </form>
 
     
 </body>
 </html>
+
+
+
+<?php
+
+    if(isset($_POST['registro'])){
+
+        $nombre=$_POST['nombre'];
+        $correo=$_POST['correo'];
+        $contraseña=$_POST['contraseña'];
+
+        $insertarDatos="INSERT INTO usuario2 VALUES('','$correo','$contraseña','$nombre')";
+        
+        $ejecutarInsertar=mysqli_query ($enlace, $insertarDatos);
+    }
+
+?>  

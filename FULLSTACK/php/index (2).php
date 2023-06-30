@@ -1,3 +1,14 @@
+<?php
+
+    $servidor="localhost";
+    $usuario="root";
+    $clave="";
+    $baseDeDatos="turismo_bd";
+    
+    $enlace=mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
+
+?>   
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Registrarse</title>
 </head>
 <body>
@@ -29,28 +40,31 @@
         </div>
       </header>
 
-      <form class="formulario" action="login_registrar.php" name="turismo_bd" method="post">
-            <h1>Registrate</h1>
-            <div class="contenedor">
-                <div class="input-contenedor">
-                    <i class="fas fa-user icon"></i>
-                    <input type="text" name="nombre" placeholder="Nombre Completo">
-                </div>
+
+    <form class="formulario">
+        <h1>Registrate</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre Completo">
+            </div>
             <div class="input-contenedor">
                 <i class="fas fa-envelope icon"></i>
-                <input type="email" name="correo" placeholder="Correo Electrónico">
+                <input type="text" placeholder="Correo Electrónico">
             </div>
             <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
-                <input type="password" name="contraseña" placeholder="Contraseña">
+                <input type="password" placeholder="Contraseña">
             </div>
-            <input type="submit" name="registro" class="button">
+
+            <input type="submit" value="Registrarse" class="button">
             <p> Al registrarte, aceptas nuestras condiciones de uso y Política de privacidad</p>
             <p> ¿Ya tienes una cuenta? <a class="link" href="login2.html">Iniciar Sesión</a></p>
+
         </div>
+  
     </form>
 
     
 </body>
 </html>
-
