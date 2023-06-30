@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAF5E0;
+    font-family:'Poppins', sans-serif;
+  }
+  
+  header {
+    background-color: #1fc130;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 13px;
+  }
+  
+  nav li {
+    display: inline-block; 
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px; 
+    border: 2px solid transparent;
+    transition: border 0.3s; 
+    border-radius: 10px;
+  }
+  nav a:hover {
+    border: 1px solid white; 
+    background-color: #EAF5E0;
+    color: #000000;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #127C33;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  img{
+    display: flex;
+    align-content: center;
+    margin-left: 50px;
+  }
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 15px;
+}
+
+.h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+.formulario input[type="text"],
+input[type="password"],
+input[type="email"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color:#999;
+}
+
+.button{
+    border:none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:#1fc130;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color:#1fc130;
+    font-weight: 600;
+}
+
+.link:hover{
+    background: cadetblue;
+}
+
+@media(min-width:768px)
+{
+        .formulario{
+            margin: auto;
+            width: 500px;
+            margin-top: 150px;
+            border-radius: 2%;
+        }
+}
