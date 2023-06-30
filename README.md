@@ -8,7 +8,8 @@ La página web trata sobre Córdoba Capital.
 Para entrar a la página se requiere iniciar sesión: Correo electrónico, usuario y contraseña.
 
 Con una interfaz amplia, empezando con el inicio donde se encuentra la información general de Córdoba Capital, su gastronomía y los eventos y festivales importantes.
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/4b6cb372-e65f-4902-8b79-c0340155e93e)
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/21b4eb43-a78e-4c4f-b3c7-c36aa3c326d0)
+
 ![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/ab099f8b-c42d-4779-b44a-9e2db545dd4d)
 ![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/4366e3eb-ce2e-46c8-9e6a-ddb639823eac)
 
