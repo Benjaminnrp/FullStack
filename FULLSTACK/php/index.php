@@ -51,14 +51,16 @@ $enlace=mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
 
 <?php
 
-    if(isset($_POST['registro'])){
+     if (isset($_POST['registro'])){
         $nombre=$_POST['nombre'];
         $correo=$_POST['correo'];
         $contraseña=$_POST['contraseña'];
 
-        $insertarDatos="INSERT INTO usuario VALUES ('', '$nombre', '$contraseña', '$correo')";
+        $insertarDatos="INSERT INTO usuario VALUES (' ', '$nombre', '$contraseña', '$correo')";
 
-        $ejecutarInsertar=mysqli_query($enlace,$insertarDatos);
+        $resultado=mysqli_query($enlace,$insertarDatos);
     }
 
-?>
+
+?> 
+
