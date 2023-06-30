@@ -1,12 +1,12 @@
 # FullStack - TURISMO CORDOBA CAPITAL
 Trabajo para la masterclass de Full Stack
 
-La página web trata sobre Córdoba Capital. Con una interfaz amplia, empezando con el inicio donde se encuentra la información general de Córdoba Capital, su gastronomía y los eventos y festivales importantes.
-Siguiente a esto encontraremos la sección visitar donde estarán recomendaciones de los mejores lugares para visitar.
-
-En alojamiento podemos ver los mejores hoteles en la capital para poder hospedarse.
-En galería el usuario podrá subir sus propias fotos como recuerdo (no serán públicas a nadie).
-Para iniciar sesión se requiere: Correo electrónico, usuario y contraseña.
+La página web realizada, es una página de turismo de la Ciudad de Córdoba Capital. Con una interfaz amplia, comenzando con el inicio donde el usuario puede regsitrarse o iniciar sesión para ingresar (requiere Correo electrónico, usuario y contraseña). 
+En la página principal se encuentra la información general de Córdoba Capital, su gastronomía y los eventos y festivales importantes.
+Siguiente a esto encontraremos la sección visitar donde estarán recomendaciones de los mejores lugares de la capital.
+Un apartado de alojamiento en el que podremos ver los mejores hoteles en la capital para poder hospedarse.
+Luego, una galería en la que el usuario podrá subir sus propias fotos como recuerdo privado, o compartiendolas con los demás usuarios.
+Al hacer click en usuario, podremos  ingresar a nuestra galería privada, cerrar sesión y eliminar nuestra cuenta.
 
 # Repositorio
 
