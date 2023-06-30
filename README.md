@@ -1,40 +1,12 @@
 # FullStack - TURISMO CORDOBA CAPITAL
 Trabajo para la masterclass de Full Stack
 
-La página web trata sobre Córdoba Capital. 
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/16907b4a-43c8-4904-b660-4ea9e0c34c1d)
-
-
-Para entrar a la página se requiere iniciar sesión: Correo electrónico, usuario y contraseña.
-
-Con una interfaz amplia, empezando con el inicio donde se encuentra la información general de Córdoba Capital, su gastronomía y los eventos y festivales importantes.
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/21b4eb43-a78e-4c4f-b3c7-c36aa3c326d0)
-
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/ab099f8b-c42d-4779-b44a-9e2db545dd4d)
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/4366e3eb-ce2e-46c8-9e6a-ddb639823eac)
-
-
-
+La página web trata sobre Córdoba Capital. Con una interfaz amplia, empezando con el inicio donde se encuentra la información general de Córdoba Capital, su gastronomía y los eventos y festivales importantes.
 Siguiente a esto encontraremos la sección visitar donde estarán recomendaciones de los mejores lugares para visitar.
 
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/b3d0574b-9ce3-4078-a465-ebc9bc99aa5a)
-
-Al posar el mouse sobre la imagen te dirá la ubicación y si se le da click en "Más información" te llevará a una página externa donde hay más información sobre el lugar.
-
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/30d0ff45-9aae-42ca-970d-8c0631791a46)
-
-
 En alojamiento podemos ver los mejores hoteles en la capital para poder hospedarse.
-
-
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/f464ed3b-4f91-461e-ad13-c495e4d3c3dc)
-
-
-En la sección usuario veremos varias opciones, a parte de un mensaje de bienvenida.
-En Galería privada podremos ver las imagenes que sacamos a lo largo de nuestro recorrido por Córdoba Capital si desea subirlo. También tenemos la opción de cerrar sesión y eliminar la cuenta.
-
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/f64beb09-abea-4acd-9468-f118fb26be23)
-
+En galería el usuario podrá subir sus propias fotos como recuerdo (no serán públicas a nadie).
+Para iniciar sesión se requiere: Correo electrónico, usuario y contraseña.
 
 # Repositorio
 
@@ -43,15 +15,9 @@ En el repositorio se encuentran almacenados los archivos en carpetas.
 La primera carpeta que se muestra es la de css. En dicha carpeta encontraremos los archivos .css que sirven para diseñar
 y modificar la interfaz de cada sección por ejemplo: login, galeria, alojamiento, etc.
 
-Usamos una paleta de colores "oscura" para la página web
-![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/40d55d4b-5e46-40b8-9e50-bdb857c030c6)
-
-
 En la carpeta "img" encontraremos las imagenes que se usan a lo largo de la página web.
 
 Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la página web para que cumpla varias necesidades como la de iniciar sesión.
-
-Los archivos .html son la estructura de la página, es decir el front end de esta
 
 # Guia de instalación
 
