@@ -140,8 +140,7 @@ Ingresamos a la ubicación del archivo del programa de Xampp. Nos dirigimos a la
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/ac371524-0c28-4090-90ec-d9996a80c8f8)
 
 
-Ingresamos al buscador y pegamos el siguiente enlace para ingresar a la página: (ENLACE)
-
+Ingresaremos al sitio web mediante el index.
 
 
 
