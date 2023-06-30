@@ -108,6 +108,13 @@ Una vez aquí elegiremos el directorio que querramos y le daremos a instalar
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/6a440aaa-b44d-490d-a3d6-ad21f4e9b907)
 
 
+## Iniciar los servidores de Apache y MySQL
+
+Luego de haber instalado la aplicación Xampp, la iniciamos y presionamos "Start" en las filas de Apache y Mysql. 
+
+
+
+
 
 
 
