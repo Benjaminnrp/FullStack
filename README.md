@@ -15,6 +15,10 @@ En el repositorio se encuentran almacenados los archivos en carpetas.
 La primera carpeta que se muestra es la de css. En dicha carpeta encontraremos los archivos .css que sirven para diseñar
 y modificar la interfaz de cada sección por ejemplo: login, galeria, alojamiento, etc.
 
+Usamos una paleta de colores oscura para la página web
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/40d55d4b-5e46-40b8-9e50-bdb857c030c6)
+
+
 En la carpeta "img" encontraremos las imagenes que se usan a lo largo de la página web.
 
 Utilizamos php para conectar la base de datos creada en Xampp(MySQL) a la página web para que cumpla varias necesidades como la de iniciar sesión.
