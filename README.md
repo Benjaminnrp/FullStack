@@ -27,6 +27,14 @@ Al posar el mouse sobre la imagen te dirá la ubicación y si se le da click en 
 En alojamiento podemos ver los mejores hoteles en la capital para poder hospedarse.
 
 
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/f464ed3b-4f91-461e-ad13-c495e4d3c3dc)
+
+
+En la sección usuario veremos varias opciones, a parte de un mensaje de bienvenida.
+En Galería privada podremos ver las imagenes que sacamos a lo largo de nuestro recorrido por Córdoba Capital si desea subirlo. También tenemos la opción de cerrar sesión y eliminar la cuenta.
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/132677256/f64beb09-abea-4acd-9468-f118fb26be23)
+
 
 # Repositorio
 
