@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="php/login.css">
     <title>Iniciar Sesión</title>
 </head>
 <body>
-    <section id="inises">
-    <form class="formulario">
+
+
+
+  <section id="inises">
+      <form action="inicio.html" name="turismo" method="post" class="formulario">
         <h1>Iniciar Sesión</h1>
         <div class="contenedor">
             <div class="input-contenedor">
                 <i class="fas fa-envelope icon"></i>
-                <input type="text" placeholder="Correo Electrónico">
+                <input type="email" name="correo" placeholder="Correo Electrónico">
             </div>
             <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
-                <input type="password" placeholder="Contraseña">
+                <input type="text" name="contraseña" placeholder="Contraseña">
             </div>
 
-            <input type="submit" value="Login" class="button">
+            <input type="submit" name="iniciosesion" value="Login" class="button" href="inicio.html">
             <p> ¿No tienes una cuenta? <a class="link" href="login.html">Registrarse</a></p>
-        </div>
-      </section>
 
+        </div>
   
     </form>
+</section>
 </body>
 </html>
