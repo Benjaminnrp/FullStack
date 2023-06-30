@@ -111,21 +111,33 @@ Una vez aquí elegiremos el directorio que querramos y le daremos a instalar
 ## Iniciar los servidores de Apache y MySQL
 
 Luego de haber instalado la aplicación Xampp, la iniciamos y presionamos "Start" en las filas de Apache y Mysql. 
-(IMAGEN 1 Y 2)
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/a7cdbd5e-e6bb-402b-90c8-ba3edcafe3cb)
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/27e09751-0f8b-4c8a-8f4b-3c33d344c725)
+
+
 
 En nuestro navegador, ingresamos a: http://localhost/phpmyadmin/index.php
 
 Clckeamos en la sección "nueva", creamos una base de datos con el nombre de "turismo" y presionamos "Crear"
-(IMAGENES)
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/a7818460-061e-46cd-98a9-1aeb3266770d)
+
+
+
 
 Nos dirigimos a Importar y seleccionamos el archivo "turismo.sql", que se encuentra en el repositorio de github. Luego, oprimimos el botón "importar" al final de la página.
-(IMAGENES)
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/1b9bdc10-c732-4178-898a-1d6ae597cd54)
+
+
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/347b38e8-b4fb-4f34-957c-1a31062b1a0e)
 
 Descargamos el repositorio de github desde la sección "code" y una vez descargado, descomprimimos el archivo.
-(IMAGENES)
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/a581ef3b-8594-4b7b-a5cc-f983cb14ac80)
+
 
 Ingresamos a la ubicación del archivo del programa de Xampp. Nos dirigimos a la carpeta llamada "htdocs" y pegamos el archivo descomprimido.
-(IMAGENES)
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/ac371524-0c28-4090-90ec-d9996a80c8f8)
+
 
 Ingresamos al buscador y pegamos el siguiente enlace para ingresar a la página: (ENLACE)
 
