@@ -87,7 +87,7 @@ Clickeamos en "instalar" despues de elegir las tareas adicionales que escojamos
 
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/f91319f7-497e-42f5-ada7-7447318ea375)
 
-## Dia
+##  Dia
 
 Dia fue utilizado para crear el diagrama entidad-relacion, para facilitarnos la creación de tablas en MySQL.
 
