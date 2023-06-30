@@ -132,7 +132,8 @@ Nos dirigimos a Importar y seleccionamos el archivo "turismo.sql", que se encuen
 ![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/347b38e8-b4fb-4f34-957c-1a31062b1a0e)
 
 Descargamos el repositorio de github desde la sección "code" y una vez descargado, descomprimimos el archivo.
-![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/a581ef3b-8594-4b7b-a5cc-f983cb14ac80)
+![image](https://github.com/Benjaminnrp/FullStack/assets/118995132/3cc86136-635f-4d41-b636-a92706ee6218)
+
 
 
 Ingresamos a la ubicación del archivo del programa de Xampp. Nos dirigimos a la carpeta llamada "htdocs" y pegamos el archivo descomprimido.
