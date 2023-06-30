@@ -111,6 +111,26 @@ Una vez aquí elegiremos el directorio que querramos y le daremos a instalar
 ## Iniciar los servidores de Apache y MySQL
 
 Luego de haber instalado la aplicación Xampp, la iniciamos y presionamos "Start" en las filas de Apache y Mysql. 
+(IMAGEN 1 Y 2)
+
+En nuestro navegador, ingresamos a: http://localhost/phpmyadmin/index.php
+
+Clckeamos en la sección "nueva", creamos una base de datos con el nombre de "turismo" y presionamos "Crear"
+(IMAGENES)
+
+Nos dirigimos a Importar y seleccionamos el archivo "turismo.sql", que se encuentra en el repositorio de github. Luego, oprimimos el botón "importar" al final de la página.
+(IMAGENES)
+
+Descargamos el repositorio de github desde la sección "code" y una vez descargado, descomprimimos el archivo.
+(IMAGENES)
+
+Ingresamos a la ubicación del archivo del programa de Xampp. Nos dirigimos a la carpeta llamada "htdocs" y pegamos el archivo descomprimido.
+(IMAGENES)
+
+Ingresamos al buscador y pegamos el siguiente enlace para ingresar a la página: (ENLACE)
+
+
+
 
 
 
