@@ -127,3 +127,10 @@ header {
     line-height: 1.2em;
     margin-bottom: 0;
   }
+  footer {
+    background-color: #8a87a9;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+  }

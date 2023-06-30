@@ -60,3 +60,10 @@ body{
 #inicio .contenido .presentacion a:hover{
     background-color:  #4e4c6b;
 }
+footer {
+    background-color: #8a87a9;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+  }
