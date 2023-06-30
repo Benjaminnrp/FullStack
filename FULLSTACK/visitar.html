@@ -1,156 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visitar</title>
-    <link rel="stylesheet" href="visitar.css">
+    <link rel="stylesheet" href="css/visitar.css">
 </head>
+
 <body>
-            
-                <div class="card">
-                        <div class="face front">
-                            <img src="img/Patio olmos.jpg" alt="">
-                            <h3>Patio Olmos</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Patio Olmos</h3>
-                            <div class="boton-modal">
-                                <label for="btn-modal">Más información
-                            </div>
-                        </div>
-                            <input type="checkbox" id="btn-modal">
-                            <div class="container-modal">
-                                <div class="content-modal">
-                                    <h2>Bienvenido</h2>
-                                    <p>Lorem ipsum  elit</p>
-                                    <div class="btn-cerrar">
-                                        <label for="btn-modal">Cerrar</label>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                
-                <div class="card">
-                    <div class="face front">
-                        <img src="img/Parque del Kempes.jpg" alt="">
-                        <h3>Parque del Kempes</h3>
-                    </div>
-                    <div class="face back">
-                        <h3>Parque del Kempes</h3>
-                        <div class="boton-modal">
-                            <label for="btn-modal">Más información
-                        </div>
-                    </div>
-                        <input type="checkbox" id="btn-modal">
-                        <div class="container-modal">
-                            <div class="content-modal">
-                                <h2>Bienvenido</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                <div class="btn-cerrar">
-                                    <label for="btn-modal">Cerrar</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <header>
+        <img src="img/escudo.png" height="50px">
+        <h1>Cordoba Capital</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="visitar.html">Visitar</a></li>
+                <li><a href="alojamiento.html">Alojamiento</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="usuario.html">Usuario</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <i class="fa-sharp fa-solid fa-magnifying-glass fa-beat"></i>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="face front">
+                <img src="img/Patio olmos.jpg" alt="">
+                <h3 class="nombre-imagen">Patio Olmos</h3>
+            </div>
+            <div class="face back">
+                <h3 class="nombre-img">Patio Olmos</h3>
+                <p>Ubicación: <a href="https://www.google.com/maps?q=Patio+Olmos,+C%C3%B3rdoba,+Argentina"
+                        target="_blank">Patio Olmos</a></p>
+                       <a class="btn-mas-info" href="https://www.instagram.com/patioolmosshopping/?hl=es">Ir a instagram</a> 
+            </div>
+        </div>
 
-                <div class="card">
-                    <div class="face front">
-                        <img src="img/La cañada de Cordoba.jpg" alt="">
-                        <h3>La Cañada</h3>
-                    </div>
-                    <div class="face back">
-                        <h3>La Cañada</h3>
-                        <div class="boton-modal">
-                            <label for="btn-modal">Más información
-                        </div>
-                    </div>
-                    
-                        <input type="checkbox" id="btn-modal">
-                        <div class="container-modal">
-                            <div class="content-modal">
-                                <h2>Bienvenido</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                <div class="btn-cerrar">
-                                    <label for="btn-modal">Cerrar</label>
-                                </div>
-                            </div>
-                        </div>
-                </div>
+        <div class="card">
+            <div class="face front">
+                <img src="img/Parque del Kempes.jpg" alt="">
+                <h3 class="nombre-imagen">Parque del Kempes</h3>
+            </div>
+            <div class="face back">
+                <h3 class="nombre-img">Parque del Kempes</h3>
+                <p> Ubicación: <a
+                        href="https://www.google.com/maps/search/Parkes+del+Kempes,+C%C3%B3rdoba,+Argentina/@-31.3713947,-64.2461323,17z/data=!3m1!4b1?entry=ttu"
+                        target="_blank"> Parque Kempes</a>
+                </p>
+                <a class="btn-mas-info" href="https://deportes.cba.gov.ar/polo-deportivo-kempes/parque-del-kempes/">Más información</a> 
+            </div>
+        </div>
 
-                <div class="card">
-                    <div class="face front">
-                        <img src="img/Museo Histórico UNC.jpg" alt="">
-                        <h3>Museo Histórico UNC</h3>
-                    </div>
-                    <div class="face back">
-                        <h3>Museo Histórico UNC</h3>
-                        <div class="boton-modal">
-                            <label for="btn-modal">Más información
-                            </div>
-                        </div>
-                    
-                        <input type="checkbox" id="btn-modal">
-                        <div class="container-modal">
-                            <div class="content-modal">
-                                <h2>Bienvenido</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                <div class="btn-cerrar">
-                                    <label for="btn-modal">Cerrar</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div class="face front">
-                        <img src="img/Paseo de las Artes.jpg" alt="">
-                        <h3>Paseo de las Artes</h3>
-                    </div>
-                    <div class="face back">
-                        <h3>Paseo de las Artes</h3>
-                        <div class="boton-modal">
-                            <label for="btn-modal">Más información</div>
-                        </div>
-                    
-                        <input type="checkbox" id="btn-modal">
-                        <div class="container-modal">
-                            <div class="content-modal">
-                                <h2>Bienvenido</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                <div class="btn-cerrar">
-                                    <label for="btn-modal">Cerrar</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="card">
-                    <div class="face front">
-                        <img src="img/Iglesia Nuestra Señora Del Carmen.jpg" alt="">
-                        <h3>Iglesia Nuestra Señora del Carmen</h3>
-                    </div>
-                    <div class="face back">
-                        <h3>Iglesia Nuestra Señora del Carmen</h3>
-                        <div class="boton-modal">
-                            <label for="btn-modal">Más información
-                            </div>
-                        </div>
-                    
-                        <input type="checkbox" id="btn-modal">
-                        <div class="container-modal">
-                            <div class="content-modal">
-                                <h2>Bienvenido</h2>
-                                <p>Hjasnfdjasn</p>
-                                <div class="btn-cerrar">
-                                    <label for="btn-modal">Cerrar</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="card">
+            <div class="face front">
+                <img src="img/La cañada de Cordoba.jpg" alt="">
+                <h3 class="nombre-imagen">La Cañada</h3>
+            </div>
+            <div class="face back">
+                <h3 class="nombre-img">La Cañada</h3>
+                <p> Ubicación: <a
+                        href="https://www.google.com/maps/place/La+Ca%C3%B1ada+de+C%C3%B3rdoba/@-31.4111948,-64.2015028,15z/data=!3m1!4b1!4m6!3m5!1s0x9432987ee26e2099:0x11723b3fbf2e71f8!8m2!3d-31.411214!4d-64.191203!16s%2Fg%2F121zcc81?hl=es&entry=ttu"
+                        target="_blank"> La Cañada</a></p>
+                        <a class="btn-mas-info" href="https://www.cordobaturismo.gov.ar/destino_destacado/canada/">Más información</a> 
+            </div>
+        </div>
 
+        <div class="card">
+            <div class="face front">
+                <img src="img/Museo Histórico UNC.jpg" alt="">
+                <h3 class="nombre-imagen">Museo Histórico UNC</h3>
+            </div>
+            <div class="face back">
+                <h3 class="nombre-img">Museo Histórico UNC</h3>
+                <p> Ubicación: <a
+                        href="https://www.google.com/maps/place/Museo+Hist%C3%B3rico+de+la+Universidad+Nacional+de+C%C3%B3rdoba+(Manzana+Jesu%C3%ADtica)/@-31.418239,-64.1887437,17z/data=!3m1!4b1!4m6!3m5!1s0x9432a28380a03c5b:0xb30d22bb71cd51a7!8m2!3d-31.418239!4d-64.186555!16s%2Fg%2F1v9t__lb?entry=ttu"
+                        target="_blank"> Museo Histórico </a></p>
+                        <a class="btn-mas-info" href="https://www.instagram.com/museohistorico.unc/"> Ir a instagram</a> 
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="face front">
+                <img src="img/Paseo de las Artes.jpg" alt="">
+                <h3 class="nombre-imagen">Paseo de las Artes</h3>
+            </div>
+            <div class="face back">
+                <h3 class="nombre-img">Paseo de las Artes</h3>
+                <p> Ubicación: <a
+                        href="https://www.google.com/maps/search/Paseo+de+las+Artes,+C%C3%B3rdoba,+Argentina/@-31.4147605,-64.2009066,15z/data=!3m1!4b1?entry=ttu"
+                        target="_blank"> Paseo de Artes</a></p>
+                <a class="btn-mas-info" href="https://www.instagram.com/paseodelasartes/?hl=es"> Ir a instagram </a> 
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face front">
+                <img src="img/Iglesia Nuestra Señora Del Carmen.jpg" alt="">
+                <h3 class="nombre-imagen">Iglesia</h3>
+            </div>
+            <div class="face back">
+                <h3 class="nombre-img">Iglesia</h3>
+                <p> Ubicación: <a
+                        href="https://www.google.com/maps/search/Iglesia+Nuestra+Se%C3%B1ora+del+Carmen,+C%C3%B3rdoba,+Argentina/@-31.3964152,-64.2050338,14z/data=!3m1!4b1?entry=ttu"
+                        target="_blank"> Iglesia </a></p>
+                        <a class="btn-mas-info" href="https://www.instagram.com/parroquiadelcarmenvilla/?hl=es">Ir a instagram</a> 
+            </div>
+        </div>
+    </div>
+
+ <footer>
+    <p>Todos los derechos reservados.</p>
+  </footer>
 </body>
+
 </html>

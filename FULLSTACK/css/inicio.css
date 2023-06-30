@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #8a87a9;
+  font-family:'Poppins', sans-serif;
+}
+
+header {
+  background-color: #00001a;
+  color: #928fb4;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+h1 {
+    margin: 0;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 13px;
+  }
+  
+nav li {
+    display: inline-block; 
+    margin-right: 10px;
+  }
+  
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px; 
+    border: 2px solid transparent;
+    transition: border 0.3s; 
+    border-radius: 10px;
+  }
+nav a:hover {
+    border: 1px solid white; 
+    background-color: #EAF5E0;
+    color: #000000;
+  }
+  
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #127C33;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+.carousel {
+      width: 500px;
+      margin: 100px auto; 
+    }
+.slides li {
+      position: relative;
+    }
+.slides li img {
+      width: 100%; 
+      height: 350px; 
+      object-fit: cover; 
+    }
+.image-info {
+      position: 100px auto;
+      bottom: 0;
+      left: 0;
+      color: #000000;
+      padding: 20px;
+      width: 500px;
+    }
+.image-info h4, .image-info p {
+      margin: 0;
+    }
+.section{
+    width: 100%;
+    height: 100vh;
+    background-color: #8a87a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+  }
+.box{
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    margin: 1.5%;
+    border-radius: 10px;
+  }
+.box img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    margin-top: -200px;
+  }
+.box .hover{
+    width: 0%;
+    margin-top: -200px;
+    height: 400px;
+    background-color:rgba(222, 217, 217, 0.788);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s all;
+  }
+.hover h1{
+    color: #000000;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+.box:hover .hover{
+    width: 100%;
+  }
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #111135;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+.cuadro-texto {
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cuadro-texto img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.cuadro-texto .texto {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cuadro-texto h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cuadro-texto p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.info {
+  background-color: #8a87a9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.info p {
+  font-size: 18px;
+  margin-bottom: -100px;
+}
+.box .hover h1 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+footer {
+  background-color: #8a87a9;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.comidas{
+  margin-top: 100px;
+}
+.festivales{
+  margin-top: -300px;
+}
+
